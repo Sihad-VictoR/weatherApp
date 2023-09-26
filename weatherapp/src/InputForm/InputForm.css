@@ -1,0 +1,21 @@
+.input-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-form input {
+  padding: 12px 25px;
+  color: white;
+  background-color: rgb(46, 41, 41);
+  text-decoration: none;
+  border: none;
+}
+
+.input-form button {
+  padding: 12px 30px;
+  color: rgb(255, 255, 255);
+  background-color: blueviolet;
+  border: none;
+  text-decoration: none;
+}

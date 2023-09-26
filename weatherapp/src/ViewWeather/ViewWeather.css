@@ -1,0 +1,155 @@
+.viewContainer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 80vh;
+}
+
+.viewBox {
+  border-radius: 10px;
+  padding: 20px;
+  background-image: url("../images/view.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 60vh;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  background-color: #ff000000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.cityTimeView {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+  font-size: large;
+}
+
+.wDescriptionView {
+  position: absolute;
+  left: 120px;
+  padding-top: 10px;
+  color: #fff;
+  top: 150px;
+  font-size: x-large;
+  left: 200px;
+}
+
+.tempValuesView {
+  position: absolute;
+  top: 120px;
+  right: 200px;
+  color: #fff;
+}
+
+.tempView {
+  font-size: 70px;
+}
+
+.minMaxView {
+  padding-top: 5px;
+  font-size: small;
+}
+
+.presHumBlockView {
+  position: absolute;
+  color: #fff;
+  bottom: 40px;
+  left: 80px;
+  align-items: flex-start;
+  text-align: left;
+  font-size: small;
+}
+
+.speedDegView {
+  position: absolute;
+  color: #fff;
+  bottom: 40px;
+  left: 350px;
+  align-content: center;
+  font-size: small;
+}
+
+.sunRiSeView {
+  position: absolute;
+  text-align: left;
+  color: #fff;
+  bottom: 40px;
+  right: 120px;
+  font-size: small;
+}
+
+@media (max-width: 768px) {
+  .cityTimeView {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    padding-left: 55px;
+    padding-top: 20px;
+  }
+
+  .wDescriptionView {
+    position: absolute;
+    left: 120px;
+    padding-top: 10px;
+    color: #fff;
+    top: 120px;
+    font-size: small;
+    left: 30px;
+  }
+
+  .tempValuesView {
+    position: absolute;
+    top: 105px;
+    right: 40px;
+    color: #fff;
+  }
+
+  .tempView {
+    font-size: 30px;
+  }
+
+  .minMaxView {
+    padding-top: 5px;
+    font-size: x-small;
+  }
+
+  .presHumBlockView {
+    position: absolute;
+    color: #fff;
+    bottom: 40px;
+    left: 2px;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 6px;
+  }
+
+  .speedDegView {
+    position: absolute;
+    color: #fff;
+    bottom: 30px;
+    left: 90px;
+    align-content: center;
+    font-size: x-small;
+  }
+
+  .sunRiSeView {
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    bottom: 40px;
+    right: 3px;
+    font-size: 6px;
+  }
+}
